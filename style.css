@@ -35,8 +35,8 @@ body {
     width: 100%;
     height: 100%;
     background: 
-        linear-gradient(90deg, transparent 49%, rgba(79, 195, 247, 0.1) 50%, transparent 51%),
-        linear-gradient(transparent 49%, rgba(79, 195, 247, 0.1) 50%, transparent 51%);
+        linear-gradient(90deg, transparent 49%, rgba(255, 120, 120, 0.06) 50%, transparent 51%),
+        linear-gradient(transparent 49%, rgba(255, 120, 120, 0.06) 50%, transparent 51%);
     background-size: 50px 50px;
     animation: bgMove 20s linear infinite;
     z-index: 0;
@@ -106,8 +106,8 @@ body {
 }
 
 @keyframes glow {
-    0%, 100% { text-shadow: 0 0 10px rgba(79, 195, 247, 0.6); }
-    50% { text-shadow: 0 0 20px rgba(79, 195, 247, 0.8); }
+    0%, 100% { text-shadow: 0 0 10px rgba(255,120,120,0.6); }
+    50% { text-shadow: 0 0 20px rgba(255,120,120,0.85); }
 }
 
 .container {
@@ -155,8 +155,8 @@ header {
 
 .menu-btn:hover {
     transform: scale(1.1);
-    border-color: #64b5f6;
-    box-shadow: 0 0 15px rgba(66, 165, 245, 0.5);
+    border-color: #ff9f9f;
+    box-shadow: 0 0 15px rgba(255,110,110,0.45);
 }
 
 .menu-icon {
@@ -335,8 +335,8 @@ header {
 }
 
 .mod-card {
-    background: linear-gradient(135deg, rgba(25, 118, 210, 0.2), rgba(21, 101, 192, 0.1));
-    border: 2px solid #42a5f5;
+    background: linear-gradient(135deg, rgba(180, 30, 30, 0.08), rgba(140, 20, 20, 0.06));
+    border: 2px solid #ff7b7b;
     border-radius: 20px;
     padding: 25px;
     transition: all 0.3s ease;
@@ -346,8 +346,8 @@ header {
 
 .mod-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(25, 118, 210, 0.4);
-    border-color: #64b5f6;
+    box-shadow: 0 15px 35px rgba(255,80,80,0.28);
+    border-color: #ff9f9f;
 }
 
 .mod-content {
@@ -363,7 +363,7 @@ header {
     height: 100px;
     border-radius: 15px;
     overflow: hidden;
-    border: 2px solid #42a5f5;
+    border: 2px solid #ff7b7b;
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -415,7 +415,7 @@ header {
 }
 
 .download-btn.loading {
-    background: linear-gradient(135deg, #0d47a1, #08306b);
+    background: linear-gradient(135deg, #7b0000, #4a0000);
 }
 
 .loading-bars {
@@ -494,7 +494,7 @@ header {
 
 .contact-text {
     font-size: 1.3rem;
-    color: #bbdefb;
+    color: #ffd6d6;
     margin-bottom: 10px;
 }
 
@@ -507,7 +507,7 @@ header {
 
 .divider {
     height: 3px;
-    background: linear-gradient(to right, transparent, #42a5f5, #64b5f6, #42a5f5, transparent);
+    background: linear-gradient(to right, transparent, #ff7b7b, #ff9f9f, #ff7b7b, transparent);
     margin: 40px 0;
     border-radius: 2px;
 }
